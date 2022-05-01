@@ -708,7 +708,3 @@ else
     UI:Notify('Failed to create configs tab due to your exploit missing certain file functions.', 2)
 end
 
-
-UI:Notify(string.format('Loaded script in %.4f second(s)!', tick() - start), 3)
-  end
-end)
